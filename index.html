@@ -46,6 +46,7 @@
             border: 4px solid #F59E0B;
             object-fit: cover;
         }
+        /* Removed .profile-photo:hover cursor since it's no longer clickable */
         /* Custom styles for the logo in the footer */
         .footer-logo {
             width: 40px;
@@ -63,7 +64,7 @@
     <header id="home" class="hero-bg min-h-screen flex items-center justify-center p-4">
         <div class="text-center max-w-4xl mx-auto">
             <div class="mb-8">
-                <!-- SINGLE, PROMINENT Profile Picture - NOW USING STABLE LINK -->
+                <!-- SINGLE, PROMINENT Profile Picture - NOW STATIC (As requested) -->
                 <img src="https://image2url.com/images/1759764699117-b0ee621e-7c5e-4c72-830f-90131aeb82ff.png" 
                      alt="Ashraf Ali Shaikh Profile Photo" 
                      class="profile-photo mx-auto shadow-xl transform transition duration-500 hover:scale-105">
@@ -84,8 +85,8 @@
         <!-- About Me Section - Refined for Career Intent -->
         <section id="about">
             <h2 class="text-4xl font-bold text-center mb-12 section-title text-amber-400">A Professional Soul</h2>
-            <!-- INCREASED TO text-2xl -->
-            <div class="max-w-3xl mx-auto text-2xl text-gray-300 leading-relaxed text-center">
+            <!-- FORCED LARGE TEXT: text-xl (mobile) up to lg:text-3xl (desktop) -->
+            <div class="max-w-3xl mx-auto text-xl md:text-2xl lg:text-3xl text-gray-300 leading-relaxed text-center">
                 <p class="mb-4">
                     I am Inker One, a lyricist whose childhood dream of authorship is anchored by years of dedication to Urdu poetry and Ghazals. I translate raw human emotion—love, separation, and ambition—into verses that seek the soul of a cinematic narrative.
                 </p>
@@ -98,10 +99,10 @@
         <!-- New Section: The Professional Edge (Highlights Discipline and Delivery) -->
         <section id="professional-edge">
             <h2 class="text-4xl font-bold text-center mb-12 section-title text-amber-400">The Professional Edge</h2>
-            <!-- INCREASED TO text-2xl -->
-            <div class="max-w-3xl mx-auto text-2xl text-gray-300 leading-relaxed text-center">
-                <!-- INCREASED TO text-2xl -->
-                <p class="mb-4 font-bold text-2xl text-indigo-300">
+            <!-- FORCED LARGE TEXT: text-xl (mobile) up to lg:text-3xl (desktop) -->
+            <div class="max-w-3xl mx-auto text-xl md:text-2xl lg:text-3xl text-gray-300 leading-relaxed text-center">
+                <!-- FORCED LARGE TEXT: text-xl (mobile) up to lg:text-3xl (desktop) -->
+                <p class="mb-4 font-bold text-xl md:text-2xl lg:text-3xl text-indigo-300">
                     15 YEARS OF DISCIPLINE: RETAIL & BPO LEADERSHIP (A foundation for creative delivery)
                 </p>
                 <p>
@@ -118,15 +119,15 @@
                 <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg work-card">
                     <div class="p-6">
                         <h3 class="text-2xl font-bold mb-2 text-white">Voiced Reels & Rhythms</h3>
-                        <!-- INCREASED TO text-2xl -->
-                        <p class="text-gray-400 mb-4 text-2xl">Self-voiced, cinematic poetry reels demonstrating vocal command and the emotional pitch of my writing.</p>
+                        <!-- FORCED LARGE TEXT: text-xl (mobile) up to lg:text-3xl (desktop) -->
+                        <p class="text-gray-400 mb-4 text-xl md:text-2xl lg:text-3xl">Self-voiced, cinematic poetry reels demonstrating vocal command and the emotional pitch of my writing.</p>
                         <a href="https://www.instagram.com/inker_one_wafa_ashrafali?igsh=MXFvazFha280eG1kZQ==" target="_blank" rel="noopener noreferrer" class="text-amber-400 font-semibold hover:underline">View @Inker_One &rarr;</a>
                     </div>
                 </div>
                 <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg work-card p-6">
                     <h3 class="text-2xl font-bold mb-2 text-white">Featured Ghazal: Azad</h3>
-                    <!-- INCREASED TO text-3xl for maximum impact -->
-                    <div class="text-gray-300 space-y-2 text-3xl italic">
+                    <!-- FORCED HUGE TEXT: text-2xl (mobile) up to lg:text-4xl (desktop) -->
+                    <div class="text-gray-300 space-y-2 text-2xl md:text-3xl lg:text-4xl italic">
                         <p>Luta ke apni hasti ko tere dar se ham shaad chale</p>
                         <p>Zindagi teri basti se ho ke ham barbaad chale</p>
                         <p>Bana ke dardo sitam, simto nadam aaghaaz chale</p>
@@ -137,8 +138,8 @@
                     <div class="p-6">
                         <!-- FINAL LINK INSERTED: YouTube Channel -->
                         <h3 class="text-2xl font-bold mb-2 text-white">Long-Form Poetic Content (YouTube)</h3>
-                        <!-- INCREASED TO text-2xl -->
-                        <p class="text-gray-400 mb-4 text-2xl">Dedicated channel featuring longer-form, structured video content and organized lyrical projects. Showcases range and commitment.</p>
+                        <!-- FORCED LARGE TEXT: text-xl (mobile) up to lg:text-3xl (desktop) -->
+                        <p class="text-gray-400 mb-4 text-xl md:text-2xl lg:text-3xl">Dedicated channel featuring longer-form, structured video content and organized lyrical projects. Showcases range and commitment.</p>
                         
                         <a href="https://www.youtube.com/@inker_one_ashrafali" target="_blank" rel="noopener noreferrer" class="text-amber-400 font-semibold hover:underline">View YouTube Channel &rarr;</a>
                     </div>
@@ -149,8 +150,8 @@
         <!-- Skills Section -->
         <section id="skills">
             <h2 class="text-4xl font-bold text-center mb-12 section-title text-amber-400">Key Skills & Expertise</h2>
-            <!-- INCREASED TO text-2xl -->
-            <div class="max-w-4xl mx-auto flex flex-wrap justify-center gap-4 text-2xl">
+            <!-- FORCED LARGE TEXT: text-xl (mobile) up to lg:text-2xl (desktop) -->
+            <div class="max-w-4xl mx-auto flex flex-wrap justify-center gap-4 text-xl md:text-xl lg:text-2xl">
                 <span class="bg-gray-700 text-amber-300 py-2 px-5 rounded-full font-semibold">Cinematic Lyricism (Urdu/Hindi)</span>
                 <span class="bg-gray-700 text-amber-300 py-2 px-5 rounded-full font-semibold">Ghazal & Nazm Composition</span>
                 <span class="bg-gray-700 text-amber-300 py-2 px-5 rounded-full font-semibold">Emotional Story Arcs</span>
@@ -164,34 +165,47 @@
         <section id="contact">
             <h2 class="text-4xl font-bold text-center mb-12 section-title text-amber-400">Collaborate with Inker One</h2>
             <div class="max-w-xl mx-auto text-center">
-                <!-- INCREASED TO text-2xl -->
-                <p class="text-2xl text-gray-300 mb-6">I am based in Mumbai and ready to discuss how my words can elevate your next project.</p>
+                <!-- FORCED LARGE TEXT: text-xl (mobile) up to lg:text-2xl (desktop) -->
+                <p class="text-xl md:text-2xl lg:text-2xl text-gray-300 mb-6">I am based in Mumbai and ready to discuss how my words can elevate your next project.</p>
                 <div class="bg-gray-800 p-8 rounded-lg shadow-lg">
                     <div class="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 md:space-x-8">
                         
-                        <!-- Left Side: Branding and QR Code -->
+                        <!-- Left Side: Branding and QR Code (Now both clickable links) -->
                         <div class="flex flex-col items-center space-y-4">
-                            <!-- Inker One Logo (Stable Link) -->
-                            <img src="https://image2url.com/images/1759764631248-96d9a825-d91f-4165-bc37-e6d985d103db.jpg" 
-                                 alt="Inker One Logo" 
-                                 class="w-20 h-20 object-contain border-2 border-amber-500 p-1 rounded-lg">
+                            <!-- Inker One Logo (Stable Link) - SIZE INCREASED TO W-28 H-28 -->
+                            <a href="https://www.instagram.com/inker_one_wafa_ashrafali?igsh=MXFvazFha280eG1kZQ==" target="_blank" rel="noopener noreferrer" class="hover:opacity-80 transition duration-200">
+                                <img src="https://image2url.com/images/1759764631248-96d9a825-d91f-4165-bc37-e6d985d103db.jpg" 
+                                     alt="Inker One Logo - Click to view Instagram" 
+                                     class="w-28 h-28 object-contain border-2 border-amber-500 p-1 rounded-lg">
+                            </a>
                             
-                            <p class="text-xs text-gray-500 italic">Scan for live reels:</p>
-                            <!-- Instagram QR Code (Stable Link) -->
-                            <img src="https://image2url.com/images/1759765525412-5c6f69c9-b4a7-413b-ad06-1d25295a1ba8.jpg" 
-                                 alt="Instagram QR Code" 
-                                 class="w-24 h-24 p-1 bg-white rounded-md shadow-md">
+                            <p class="text-xs text-gray-500 italic">Scan for live reels (or click on desktop):</p>
+                            <!-- Instagram QR Code (Stable Link) - SIZE REMAINS W-24 H-24 -->
+                            <a href="https://www.instagram.com/inker_one_wafa_ashrafali?igsh=MXFvazFha280eG1kZQ==" target="_blank" rel="noopener noreferrer" class="hover:scale-105 transition duration-200">
+                                <img src="https://image2url.com/images/1759765525412-5c6f69c9-b4a7-413b-ad06-1d25295a1ba8.jpg" 
+                                     alt="Instagram QR Code - Clickable Link" 
+                                     class="w-24 h-24 p-1 bg-white rounded-md shadow-md">
+                            </a>
                         </div>
 
                         <!-- Right Side: Contact Details -->
                         <div class="text-center md:text-left">
                             <p class="text-2xl font-bold text-white">Ashraf Ali Shaikh</p>
-                            <!-- Contact Email/Phone kept at text-lg for neatness -->
-                            <p class="text-xl text-amber-400 mt-2"><a href="mailto:Ashrafali.shaaan@gmail.com" class="hover:underline">Ashrafali.shaaan@gmail.com</a></p>
-                            <!-- UPDATED: Added "Contact & WhatsApp" -->
+                            <!-- Contact Email/Phone kept at text-xl for neatness -->
+                            <p class="text-xl text-amber-400 mt-2">
+                                <a href="mailto:Ashrafali.shaaan@gmail.com?subject=Professional%20Collaboration%20Inquiry%20via%20Portfolio" class="hover:underline">
+                                    Ashrafali.shaaan@gmail.com
+                                </a>
+                            </p>
+                            <!-- UPDATED: Added WhatsApp direct link and pre-filled message -->
                             <p class="text-xl text-amber-400 mt-1">
-                                <a href="tel:+919833661487" class="hover:underline">+91 983 366 1487</a> 
-                                <span class="text-sm text-gray-400">(Contact & WhatsApp)</span>
+                                <a href="https://wa.me/919833661487?text=Hello%20Inker%20One%2C%20I%20saw%20your%20lyricist%20portfolio%20and%20would%20like%20to%20discuss%20a%20collaboration." 
+                                   target="_blank" 
+                                   rel="noopener noreferrer" 
+                                   class="hover:underline">
+                                    +91 983 366 1487
+                                </a> 
+                                <span class="text-sm text-gray-400">(WhatsApp Direct)</span>
                             </p>
                             <p class="mt-4 text-sm text-gray-400">Mumbai, Maharashtra, India</p>
                         </div>
